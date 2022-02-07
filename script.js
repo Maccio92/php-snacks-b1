@@ -7,7 +7,7 @@ const App = new Vue(
         text: "",
     },
     created() {
-        axios.get('http://localhost:81/db-first/controller-api.php').then((result) => {
+        axios.get('http://localhost:81/php-snacks-b1/controller-api.php').then((result) => {
             this.cars = result.data.results;
             this.filtered = result.data.results;
         }).catch((error) => { console.log(error); });
@@ -19,7 +19,7 @@ const App = new Vue(
             } else {
                 this.cars = [];
                 this.filtered.forEach(element => {
-                    if((element.marca === this.text) || (element.versione === this.text)){
+                    if((element.marca === this.text) || (element.carburante === this.text)){
                     this.cars.push(element);
                     
                 }

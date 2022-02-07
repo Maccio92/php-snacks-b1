@@ -17,7 +17,7 @@ $cars = [
         'tagliandi' => '12/06/2017 passato',
         'revisioni' => '11/11/2018 passata',
         'colore' => 'grigio',
-        'immagine' => 'null',
+        'immagine' => 'https://cdn.miacar.it/thumbs/vehicle-gallery-800x560/cars/RENAULT/CAPTUR/tce-12v-100-cv-zen/grigio-magnete/3k0b3k3/a.JPG',
         'prezzo' => 11900.00,
     ],
     [
